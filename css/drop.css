@@ -1,0 +1,106 @@
+.image-container {
+  right: 7rem;
+  top: 5rem;
+  position: absolute;
+}
+
+.variable-size {
+  width: 100px;
+  height: 100px;
+}
+
+.canvas-image {
+  border-radius: 100%;
+}
+
+.text-drop{
+  margin-top: 4rem;
+  font-size: 12pt;
+}
+
+.canvas-overlay {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.canvas-overlay:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.drop-zone {
+  background-color: hsl(0, 33%, 99%);
+  border: 2px dashed white;
+  border-radius: 100%;
+  padding: 0;
+  color: white;
+  font-size: 80%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#file-select p {
+  margin: auto 0;
+  font-size: 80%;
+  display: inline;
+}
+
+/* ================================= Layout ================================= */
+.l-centered {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.l-position-absolute {
+  position: absolute;
+}
+
+/* ================================= State ================================== */
+.__hide {
+  display: none;
+}
+
+.__warning {
+  color: hsl(1, 100%, 60%);
+}
+
+
+#file-clear{
+  position: fixed;
+  top: 4.5rem;
+  right: 1rem;
+  padding: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: red;
+  border: none;
+}
+
+#file-submit {
+  visibility: hidden;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  padding: 1rem;
+  right: 1rem;
+  top: 4rem;
+  border-radius: 100%;
+  background-color: #333;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: blue;
+}

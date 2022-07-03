@@ -1,0 +1,113 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(230 230 230);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.caixadefora {
+  background-color: rgb(255, 255, 255);
+  margin: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, .15);
+  padding: 30px 70px;
+}
+
+.rectangle {
+  height: 5px;
+  width: 75px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.rectangle2 {
+  height: 5px;
+  width: 75px;
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+input{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px #ffff;
+  width: 100%;
+  font-size: 25pt;
+  color: rgb(44, 44, 44);
+}
+h5 input{
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px #ffff;
+  width: auto;
+  font-size: 16pt;
+  color: rgb(44, 44, 44);
+}
+
+p input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px #ffff;
+  width: 80%;
+  font-size: 12pt;
+  color: rgb(44, 44, 44);
+}
+
+p textarea {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px #ffff;
+  width: 70vw;
+  height: auto;
+  min-height: 40px;
+  font-size: 15pt;
+  color: rgb(255, 255, 255);
+}
+
+.text-midia{
+  display: inline-block;
+  font-size: 12pt;
+}
+
+.text-midia input {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-midia i {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 2px;
+  font-size: 12pt;
+  font-size: 16pt;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #000000;
+  box-shadow: 0 0 10px #525252;
+  border-radius: 10px;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #000000;
+    box-shadow: 0 0 10px #525252;
+}
+
+.socialmedia {
+  color: white;
+  font-size: 30px;
+  margin: 0px 5px;
+}
+
+#sobre {
+  background-color: #444;
+  margin: 50px -70px;
+  padding: 50px 75px;
+  color: white;
+  border-radius: 20px;
+}
+
+
